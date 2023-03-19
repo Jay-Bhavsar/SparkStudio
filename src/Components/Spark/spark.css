@@ -154,6 +154,7 @@ cursor: pointer;
   background-color: #003f5c;
   color: #d5f1fe;
   padding: 15px;
+  border-radius: 10px;
 }
 .upper p {
   padding: 0;
