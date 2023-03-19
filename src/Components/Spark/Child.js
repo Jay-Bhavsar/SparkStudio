@@ -7,7 +7,7 @@ function Child() {
         <center>
           {info.max_age < 10 ? (
             <div className="childs">
-              <div className="card">
+              <div className="card1">
                 <div className="upper">
                   <p>
                     <span> {info.num_classes} Sessions</span>

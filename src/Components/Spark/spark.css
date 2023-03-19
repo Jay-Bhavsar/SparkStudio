@@ -55,7 +55,7 @@ cursor: pointer;
 
 .card {
   display: flex;
-  background-color: #f8f8f8;
+  background-color: #EDFCFF;
   margin: 30px;
   justify-content: center;
   align-items: center;
@@ -73,6 +73,9 @@ cursor: pointer;
   left: 171px;
   top: 866px;
   border-radius: 4px;
+}
+.card:hover{
+  background-color: #3EBEFF;
 }
 .card h2 {
   font-size: 20px;
@@ -92,6 +95,56 @@ cursor: pointer;
 }
 
 .card li {
+  font-size: 13px;
+  text-align: left;
+  text-decoration: solid;
+  padding: 5px;
+}
+
+.card1 {
+  display: flex;
+  background-color: #DCCCFF;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 2px solid rgb(255, 255, 255);
+  width: 300px;
+  height: 700px;
+  display: inline-block;
+  border: 2px solid #d5f1fe;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-weight: 800;
+  height: 765px;
+  width: 328px;
+  left: 171px;
+  top: 866px;
+  border-radius: 4px;
+}
+.card1:hover{
+  background-color: #905CFF;
+  color: white;
+  margin-bottom: 30px;
+}
+.card1 h2 {
+  font-size: 20px;
+  text-align: justify;
+}
+.card1 h3 {
+  font-size: 20px;
+  text-align: justify;
+}
+.card1 p {
+  font-size: 13px;
+  text-align: justify;
+  /* padding: 5px; */
+}
+.card1 h4 {
+  text-align: justify;
+}
+
+.card1 li {
   font-size: 13px;
   text-align: left;
   text-decoration: solid;
@@ -121,6 +174,8 @@ cursor: pointer;
   margin-top: 15px;
   background-color: #d5f1fe;
 }
+
+
 
 .activities p {
   margin: 8px;
